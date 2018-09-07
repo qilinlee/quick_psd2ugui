@@ -306,7 +306,7 @@ namespace PSDUIImporter
         //设置九宫格
         void setSpriteBorder(TextureImporter textureImporter,string[] args)
         {
-            textureImporter.spriteBorder = new Vector4(float.Parse(args[0]), float.Parse(args[1]), float.Parse(args[2]), float.Parse(args[3]));
+            textureImporter.spriteBorder = new Vector4(float.Parse(args[0]), float.Parse(args[3]), float.Parse(args[2]), float.Parse(args[1]));
         }
 
         //------------------------------------------------------------------
